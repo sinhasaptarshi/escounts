@@ -1,0 +1,217 @@
+.CodeMirror {
+    font-size: .8em;
+    height: auto;
+}
+
+.CodeMirror-scroll {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+#header_img {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.list-inline {
+	list-style: none;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+	padding-left: 0;
+}
+
+.list-inline > li {
+	display: inline-block;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+#social-platforms,
+#page-anchors {
+  position:relative;
+  font-size:1.6rem;
+  text-align:center;
+  height:auto;
+  overflow:hidden;
+}
+
+
+#social-platforms a{
+  background: rgba(230, 230, 230, 0.1);
+  text-align:center;
+  position:relative;
+  display:inline-block;
+  width:1.5em;
+  height:1.5em;
+  font-size:2em;
+  color:#fff;
+  line-height:1.05em;
+  border:0;
+  cursor:pointer;
+  margin:0.8em 0.4em;
+  padding:0.15em;
+  box-shadow: 0em 0.35em 0.35em 0em rgba(0, 0, 0, 0.55);
+  border-radius:0.3em 0.3em 0.3em 0.3em;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+#social-platforms a span {
+	display:none;
+  }
+  
+  #social-platforms a:after,
+  #page-anchors button:after {
+	opacity:0;
+	font-size:.5em;
+	font-weight:30em;
+	color:#fff;
+	background:#000;
+	content:attr(data-title);
+	white-space:nowrap;
+	display:block;
+	position:absolute;
+	left:0;
+	bottom:60em;
+	z-index:-5;
+	cursor:help;
+	padding:3em 8em;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	transition:all .5s;
+  }
+  
+  #social-platforms a:before,
+  #page-anchors button:before {
+	opacity:0;
+	display:block;
+	position:absolute;
+	bottom:5em;
+	left:50%;
+	margin-left:-5em;
+	z-index:9;
+	cursor:help;
+	content:'';
+	width:0;
+	height:0;
+	border-left:5em solid transparent;
+	border-right:5em solid transparent;
+	border-top:5em solid #000;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	transition:all .5s;
+	}
+  
+  #social-platforms a:hover,
+  #page-anchors a:hover,
+  #page-anchors button:hover {
+	color:white;
+	background-color: #1E4258;
+	box-shadow: 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.45);
+	}
+  
+  #social-platforms a:hover:before, #social-platforms a:hover:after,
+  #page-anchors a:hover:before, #page-anchors a:hover:after,
+  #page-anchors button:hover:before, #page-anchors button:hover:after  {
+	opacity:1;
+	z-index:50;
+  }
+
+  #project-platforms {
+	position:relative;
+	font-size:1.2rem;
+	text-align:center;
+	height:auto;
+	overflow:hidden;
+  }
+  
+  #project-platforms a {
+	background: rgba(170, 170, 170, 0.1);
+	text-align:center;
+	position:relative;
+	display:inline-block;
+	width:1.4em;
+	height:1.4em;
+	font-size:1.75em;
+	color:#000;
+	line-height:1.05em;
+	border:0;
+	cursor:pointer;
+	margin:0.9em 0.2em;
+	padding:0.15em;
+	box-shadow: 0em 0.3em 0.3em 0em rgba(170, 170, 170, 0.65);
+	border-radius:0.2em 0.2em 0.2em 0.2em;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	transition:all .5s;
+  }
+  
+  #project-platforms a span {
+	display:none;
+  }
+  
+  #project-platforms a:after {
+	opacity:0;
+	font-size:.5em;
+	font-weight:30em;
+	color:#000;
+	background:#000;
+	content:attr(data-title);
+	white-space:nowrap;
+	display:block;
+	position:absolute;
+	left:0;
+	bottom:60em;
+	z-index:-5;
+	cursor:help;
+	padding:3em 8em;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	transition:all .5s;
+  }
+  
+  #project-platforms a:before {
+	opacity:0;
+	display:block;
+	position:absolute;
+	bottom:5em;
+	left:50%;
+	margin-left:-5em;
+	z-index:9;
+	cursor:help;
+	content:'';
+	width:0;
+	height:0;
+	border-left:5em solid transparent;
+	border-right:5em solid transparent;
+	border-top:5em solid #000;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	transition:all .5s;
+	}
+  
+  #project-platforms a:hover {
+	background-color: #1E4258;
+	color:#fff;
+	box-shadow: 0 0.1em 0.1em 0 rgba(70, 70, 70, 0.45);
+	}
+  
+
+.results-carousel {
+		overflow: hidden;
+}
+	  
+.results-carousel .item {
+		margin: 5px;
+		overflow: hidden;
+		border: 1px solid #bbb;
+		border-radius: 10px;
+		padding: 0;
+		font-size: 0;
+}
+	  
+.results-carousel video {
+		margin: 0;
+}
+	  

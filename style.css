@@ -42,13 +42,16 @@ abbr[title] {
 b,strong {
     font-weight: bold
 }
+carousel-item * {
+    font-size: inherit; /* or specify a specific font size */
+}
 
 dfn {
     font-style: italic
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 4em;
     margin: 0.67em 0
 }
 
@@ -67,6 +70,12 @@ sub,sup {
     position: relative;
     vertical-align: baseline
 }
+/* .container {
+    max-width: none; /* Override Bootstrap's max-width */
+/* } */
+/* custom-text { */
+    /* max-width: 100%; Adjust as needed */
+/* } */ */
 
 sup {
     top: -0.5em
